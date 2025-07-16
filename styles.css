@@ -1,0 +1,61 @@
+.open-sans-<uniquifier > {
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+.btn-primary {
+  background-color: #4e47ff;
+  font-weight: bold;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+}
+
+nav {
+  display: flex;
+  gap: 158px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+nav ul {
+  display: flex;
+  gap: 158px;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 50px;
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.banner-title {
+  font-size: 45px;
+  font-weight: 800;
+  color: #252432;
+  text-align: center;
+}
+.banner {
+  text-align: center;
+}
+.logo-design {
+  color: #4e47ff;
+  font-size: 34px;
+}
+.header {
+  background-image: url('./Assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+header {
+  max-width: 1440px;
+  max-height: 698px;
+  margin: 0 auto;
+}
